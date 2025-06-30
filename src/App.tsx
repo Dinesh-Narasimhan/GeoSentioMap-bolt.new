@@ -2,6 +2,29 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Upload, MapPin, Cloud, Clock, Brain, Zap, Heart, Waves, Camera, ChevronDown, Sparkles, Eye, ArrowRight, RotateCcw, Shield, Cpu, Database, AlertCircle, CheckCircle } from 'lucide-react';
 import { loadModel, runInference } from './utils/modelInference';
 
+<div style={{
+  position: "fixed",
+  bottom: "10px",
+  right: "10px",
+  zIndex: 999
+}}>
+  <a href="https://bolt.new" target="_blank" rel="noopener noreferrer">
+    <img
+      src="/black_circle_badge.png"
+      alt="Built with Bolt"
+      style={{
+        width: "80px",
+        maxWidth: "18vw",
+        minWidth: "50px",
+        height: "auto"
+      }}
+    />
+  </a>
+</div>
+
+
+
+
 const emotionConfig = {
   peaceful: {
     color: 'from-emerald-400 to-teal-600',
@@ -228,6 +251,27 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+
+<div style={{
+  position: "fixed",
+  top: "1rem",
+  right: "1rem",
+  zIndex: 1000,
+}}>
+  <a href="https://bolt.new" target="_blank" rel="noopener noreferrer">
+    <img
+      src="/bolt_badge.png"
+      alt="Powered by Bolt.new"
+      style={{
+        width: "60px",
+        height: "auto",
+        maxWidth: "15vw",
+        minWidth: "40px"
+      }}
+    />
+  </a>
+</div>
+
       {/* Header */}
       <header className="relative overflow-hidden bg-white/80 backdrop-blur-sm border-b border-gray-200/50 sticky top-0 z-50">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-600/5 to-purple-600/5"></div>
