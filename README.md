@@ -2,6 +2,8 @@ Gi# 🧠 GeoSentioMap - AI Emotion Recognition
 
 Your complete AI emotion recognition web application powered by your trained PyTorch model!
 
+LINK FOR WEB: https://geosentiomap.netlify.app/
+
 ## 🚀 Quick Start
 
 ### 1. Download Your Model
