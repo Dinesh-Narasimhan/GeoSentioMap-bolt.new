@@ -137,4 +137,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Built with ❤️ using React, TypeScript, Tailwind CSS, and ONNX Runtime Web**
+**Built with ❤️ using React, TypeScript, Tailwind CSS, and ONNX Runtime Web**"# bolt" 
