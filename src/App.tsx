@@ -2,27 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Upload, MapPin, Cloud, Clock, Brain, Zap, Heart, Waves, Camera, ChevronDown, Sparkles, Eye, ArrowRight, RotateCcw, Shield, Cpu, Database, AlertCircle, CheckCircle } from 'lucide-react';
 import { loadModel, runInference } from './utils/modelInference';
 
-<div style={{
-  position: "fixed",
-  bottom: "10px",
-  right: "10px",
-  zIndex: 999
-}}>
-  <a href="https://bolt.new" target="_blank" rel="noopener noreferrer">
-    <img
-      src="/black_circle_badge.png"
-      alt="Built with Bolt"
-      style={{
-        width: "80px",
-        maxWidth: "18vw",
-        minWidth: "50px",
-        height: "auto"
-      }}
-    />
-  </a>
-</div>
-
-
 
 
 const emotionConfig = {
@@ -258,15 +237,14 @@ function App() {
   right: "1rem",
   zIndex: 1000,
 }}>
-  <a href="https://bolt.new" target="_blank" rel="noopener noreferrer">
+  <a href="https://bolt.new" target="_blank" rel="noopener noreferrer"
+className="block transition-transform duration-300 hover:scale-110 active:scale-95">
     <img
-      src="/bolt_badge.png"
-      alt="Powered by Bolt.new"
-      style={{
-        width: "60px",
-        height: "auto",
-        maxWidth: "15vw",
-        minWidth: "40px"
+      src="/black_circle_badge.png"
+      alt="Powered by Bolt.new - - Made in Bolt"
+      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 max-w-[15vw] min-w-[50px] drop-shadow-lg hover:drop-shadow-xl transition-all duration-300"
+            style={{
+              filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2))'
       }}
     />
   </a>
