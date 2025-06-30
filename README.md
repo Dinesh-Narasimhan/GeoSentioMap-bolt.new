@@ -1,4 +1,4 @@
-# 🧠 GeoSentioMap - AI Emotion Recognition
+Gi# 🧠 GeoSentioMap - AI Emotion Recognition
 
 Your complete AI emotion recognition web application powered by your trained PyTorch model!
 
@@ -118,6 +118,8 @@ Your model classifies emotions into 4 categories:
 - ✅ Firefox 90+
 - ✅ Safari 14+
 - ✅ Edge 88+
+
+Github: https://github.com/Dinesh-Narasimhan/GeoSentioMap-bolt.new
 
 ## 🔍 Troubleshooting
 
